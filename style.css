@@ -755,6 +755,7 @@ i {
   display: none;
 }
 .story--scroll {
+  background-color: transparent;
  display: block;
 }
 }

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/1e252d778c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="all-container">
+    <div class="nav-container" style="position:fixed;">
+    <nav class="laptop-nav" >
+        <!-- Logo -->
+        <div class="logo">
+            <img src="./images/Instagram_logo.svg.png" alt="">
+
+        </div>
+        <!-- Nav Links -->
+        <div class="icons">
+                <a href="#">
+                        <i class="fa-solid fa-house"></i>
+                        <p>Home</p>
+                </a>
+        </div>
+        <div class="icons">
+                <a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <p>Search</p>
+                </a>
+        </div>
+         <div class="icons">
+                <a href="#">
+                       <i class="fa-regular fa-compass"></i>
+                        <p>Explore</p>
+                </a>
+        </div>
+        <div class="icons">
+                <a href="#">
+                      <i class="fa-brands fa-facebook-messenger"></i>
+                        <p>Messages</p>
+                </a>
+        </div>
+         <div class="icons">
+                <a href="#">
+                     <i class="fa-regular fa-heart"></i>
+                        <p>Notifications</p>
+                </a>
+        </div>
+         <div class="icons">
+                <a href="#">
+                     <i class="fa-regular fa-square-plus"></i>
+                        <p>Create</p>
+                </a>
+        </div>
+        <div class="icons">
+                <a href="#">
+                    <img src="./images/184954215_5445051182231582_8071326373936835373_n.jpg" alt="" style="border-radius: 50%; width: 12%;">
+                        <p>Profile</p>
+                </a>
+        </div>
+        <!-- Hamburger -->
+        
+         <div class="icons more">
+                <a href="#">
+                   <i class="fa-solid fa-bars"></i>
+                        <p>More</p>
+                </a>
+        </div>
+        <!-- Mobile Nav Top  -->
+    </nav>
+    <nav class="navbar-mobile-top">
+    <div class="navbar-wrapper">
+      <div class="nav-items">
+        <img src="./images/Instagram_logo.svg.png" alt="" class="mobile-img">        
+       <div class="mobe-icons">
+        <i class="fa-regular fa-square-plus"></i>
+        <i class="fa-regular fa-heart"></i>
+       </div>
+</div>
+    </div>
+    <!-- Mobile Nav bottom -->
+    <nav class="navbar-mobile-bottom">
+    <div class="navbar-wrapper">
+      <div class="nav-items">
+        <i class="fa-solid fa-house"></i>
+         <i class="fa-solid fa-magnifying-glass"></i>
+         <img src="./images/reels.png" alt="instagram-reel" width="8%" height="2%" style="margin-top:1rem ;">
+         <i class="fa-brands fa-facebook-messenger"></i>
+        <img src="./images/184954215_5445051182231582_8071326373936835373_n.jpg" alt="" style="border-radius: 50%; width: 8%; height: 2%; margin-top: 1rem; margin-right:.4rem ;">
+                    
+      </div>
+    </div>
+  </nav>
+</div>
+<section class="main">
+    <div class="wrapper">
+      <div class="left-col">
+        <div class="status-wrapper">
+          <button class="story--scroll" id="scroll-left" onclick="scrollHorizontal(1)"><i
+              class="fas fa-chevron-left"></i></button>
+          <button class="story--scroll" id="scroll-right" onclick="scrollHorizontal(-1)"><i
+              class="fas fa-chevron-right"></i></button>
+          <div class="stories">
+            <div class="status-card dammy">
+              <div class="status-pic">
+                <img src="./images/184954215_5445051182231582_8071326373936835373_n.jpg" />
+              </div>
+              <p class="username">Your story</p>
+            </div>
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="./images/default-user.png" />
+              </div>
+              <p class="username">e.or.s</p>
+            </div>
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="./images/273952849_475872817350686_6427342314171806159_n.jpg" />
+              </div>
+              <p class="username">victordideo...</p>
+            </div>
+             <div class="status-card">
+              <div class="status-pic">
+                <img src="./images/sheggzolu.jpg" />
+              </div>
+              <p class="username">sheggzolus...</p>
+            </div>
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="./images/243345422_375116704321726_7713836295111947237_n.jpg" />
+              </div>
+              <p class="username">sophie_ttee</p>
+            </div>
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="./images/kie_kie__.jpg" />
+              </div>
+              <p class="username">kie_kie__</p>
+            </div>
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="./images/kijagold.jpg" />
+              </div>
+              <p class="username">kijagold</p>
+            </div>
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="./images/muharb.jpg" />
+              </div>
+              <p class="username">honmuharb</p>
+            </div>
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="./images/christianah_j.jpg" />
+              </div>
+              <p class="username">christiana_j...</p>
+            </div>
+            <div class="status-card">
+              <div class="status-pic">
+                <img src="./images/papaya_ex.jpg" />
+              </div>
+              <p class="username">papaya_ex</p>
+            </div>
+          </div>
+        </div>  
+        <!-- Posts------------------------------------------- ---------------------- -->
+        <div class="big-cont">
+          <div class="pst">
+        <div class="post">
+          <div class="info">
+            <div class="user">
+              <div class="status-pic">
+                <img src="./images/mayorkun.jpg" alt="Profile Image" />
+              </div>
+              <p class="username">iammayorkun</p>
+              <img src="./images/302-3024199_instagram-verified-symbol-png-instagram-verified-logo-png.png" alt="" width="3%" style="margin-top: .4rem;"><br>
+           
+            </div>
+            <img src="assets/images/nav-items/option.PNG" class="options" alt="Options" />
+          </div>
+            <!-- <p style="margin: 0; padding:0rem 7rem; color: gray; text-align: left;">original audio</p> -->
+             <video style="display: block;" width="100%" controls autoplay>
+              <source src="./images/1816036200.mp4" type="video/mp4">
+              <source src="movie.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+            </video>
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="assets/images/nav-items/like.PNG" class="icons" />
+              <img src="assets/images/nav-items/comment.PNG" class="icons" />
+              <img src="assets/images/nav-items/send.PNG" class="icons" />
+              <img src="assets/images/nav-items/save.PNG" class="save icons" />
+            </div>
+            <div class="comments">
+              <p style="text-align: left; margin-top: 0;font-size: 1.2rem;"  > <img src="./images/273952849_475872817350686_6427342314171806159_n.jpg" alt="" style="border-radius: 50%;" width="5%"><img src="./images/ecommtechy.jpg" alt="" style="border-radius: 50%;" width="5%"><img src="./images/christianah_j.jpg" alt="" style="border-radius: 50%;" width="5%"><span style="margin-top: 0;"> Liked by <b>kingspankywyte</b> and <b>80,099 others</b></span></p>
+            <p class="description" style="text-align: left; font-size: 1.2rem;">
+              <span style="margin: 0; padding:0; text-align:left; ">iammayorkun</span>'Alarm' out midnight! This one's special  
+🥰
+            </p>
+            <p class="no-comments" style="text-align: left; font-size: 1.2rem;">View all 1,863 comments</p>
+            <p class="post-time" style="text-align: left; font-size: 1.2rem;"> 19 hours  ago</p>
+            </div>
+          </div>
+           <!-- <hr /> -->
+          <div class="comment-wrapper">
+            <img src="assets/images/nav-items/smile.PNG" class="icons"/>
+            <input type="text" class="comment-box" placeholder="Add a comment..." style="font-size: 1.2rem;" />
+            <button class="comment-btn">Post</button>
+          </div>
+        </div>
+          <!-- 2nd Post------------------------------------------- ---------------------- -->
+        <div class="post">
+          <div class="info">
+            <div class="user">
+              <div class="status-pic">
+                <img src="./images/careerbuddyhq.jpg" alt="Profile Image" />
+              </div>
+              <p class="username">careerbuddyhq</p>
+            </div>
+            <img src="assets/images/nav-items/option.PNG" class="options" alt="Options" />
+          </div>
+             <video style="display: block;" width="100%" controls>
+              <source src="./images/1091235282.mp4" type="video/mp4">
+              <source src="movie.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+            </video>
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="assets/images/nav-items/like.PNG" class="icons" />
+              <img src="assets/images/nav-items/comment.PNG" class="icons" />
+              <img src="assets/images/nav-items/send.PNG" class="icons" />
+              <img src="assets/images/nav-items/save.PNG" class="save icons" />
+            </div>
+            <div class="comments">
+              <p style="text-align: left; margin-top: 0;font-size: 1.2rem;"  > <img src="./images/ecommtechy.jpg" alt="" style="border-radius: 50%;" width="5%"><img src="./images/oyin.jpg" alt="" style="border-radius: 50%;" width="5%"><img src="./images/273952849_475872817350686_6427342314171806159_n.jpg" alt="" style="border-radius: 50%;" width="5%"><span style="margin-top: 0;"> Liked by <b>asoftwareapprentice</b> and <b>99 others</b></span></p>
+            <p class="description" style="text-align: left; font-size: 1.2rem;">
+              <span style="margin: 0; padding:0; text-align:left; ">careerbuddyhq</span> Please ooo... I need my brain to do that thing that does all doings, because Q4 goals...😯 
+
+            </p>
+            <p class="no-comments" style="text-align: left; font-size: 1.2rem;">View all 63 comments</p>
+            <p class="post-time" style="text-align: left; font-size: 1.2rem;"> 24 hours  ago</p>
+            </div>
+          </div>
+           <!-- <hr /> -->
+          <div class="comment-wrapper">
+            <img src="assets/images/nav-items/smile.PNG" class="icons"/>
+            <input type="text" class="comment-box" placeholder="Add a comment..." style="font-size: 1.2rem;" />
+            <button class="comment-btn">Post</button>
+          </div>
+        </div> 
+          <!-- 3rd Post------------------------------------------- ---------------------- -->
+        <div class="post">
+          <div class="info">
+            <div class="user">
+              <div class="status-pic">
+                <img src="./images/mufasatundeednut.jpg  "/>
+              </div>
+              <p class="username">mufasatundeednut</p>
+              <img src="./images/302-3024199_instagram-verified-symbol-png-instagram-verified-logo-png.png" alt="" width="3%" style="margin-top: .4rem;">
+            </div>
+            <img src="assets/images/nav-items/option.PNG" class="options" alt="Options" />
+          </div>
+             <video style="display: block;" width="100%" controls>
+              <source src="./images/370567075.mp4" type="video/mp4">
+              <source src="movie.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+            </video>
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="assets/images/nav-items/like.PNG" class="icons" />
+              <img src="assets/images/nav-items/comment.PNG" class="icons" />
+              <img src="assets/images/nav-items/send.PNG" class="icons" />
+              <img src="assets/images/nav-items/save.PNG" class="save icons" />
+            </div>
+            <div class="comments">
+              <p style="text-align: left; margin-top: 0;font-size: 1.2rem;"  > <img src="./images/christianah_j.jpg" alt="" style="border-radius: 50%;" width="5%"><img src="./images/muharb.jpg" alt="" style="border-radius: 50%;" width="5%"><img src="./images/ecommtechy.jpg" alt="" style="border-radius: 50%;" width="5%"><span style="margin-top: 0;"> Liked by <b>christiana_jegson</b> and <b>58,677 others</b></span></p>
+            <p class="description" style="text-align: left; font-size: 1.2rem;">
+              <span style="margin: 0; padding:0; text-align:left; ">mufasatundeednut</span> Ah ah! 
+
+            </p>
+            <p class="no-comments" style="text-align: left; font-size: 1.2rem;">View all 1,487 comments</p>
+            <p class="post-time" style="text-align: left; font-size: 1.2rem;"> 4 hours  ago</p>
+            </div>
+          </div>
+           <!-- <hr /> -->
+          <div class="comment-wrapper">
+            <img src="assets/images/nav-items/smile.PNG" class="icons"/>
+            <input type="text" class="comment-box" placeholder="Add a comment..." style="font-size: 1.2rem;" />
+            <button class="comment-btn">Post</button>
+          </div>
+        </div>  
+          <!-- 4th Posts------------------------------------------- ---------------------- -->
+        <div class="post">
+          <div class="info">
+            <div class="user">
+              <div class="status-pic">
+                <img src="./images/mufasatundeednut.jpg" alt="Profile Image" />
+              </div>
+              <p class="username">mufasatundeednut</p>
+              <img src="./images/302-3024199_instagram-verified-symbol-png-instagram-verified-logo-png.png" alt="" width="3%" style="margin-top: .4rem;">
+            </div>
+            <img src="assets/images/nav-items/option.PNG" class="options" alt="Options" />
+          </div>
+             <img src="./images/261810672.jpg" alt="tunde-post" style="display: block;" width="100%">
+           
+          <div class="post-content">
+            <div class="reaction-wrapper">
+              <img src="assets/images/nav-items/like.PNG" class="icons" />
+              <img src="assets/images/nav-items/comment.PNG" class="icons" />
+              <img src="assets/images/nav-items/send.PNG" class="icons" />
+              <img src="assets/images/nav-items/save.PNG" class="save icons" />
+            </div>
+            <div class="comments">
+              <p style="text-align: left; margin-top: 0;font-size: 1.2rem;"  > <img src="./images/273952849_475872817350686_6427342314171806159_n.jpg" alt="" style="border-radius: 50%;" width="5%"><img src="./images/ecommtechy.jpg" alt="" style="border-radius: 50%;" width="5%"><img src="./images/christianah_j.jpg" alt="" style="border-radius: 50%;" width="5%"><span style="margin-top: 0;"> Liked by <b>kingspankywyte</b> and <b>80,099 others</b></span></p>
+            <p class="description" style="text-align: left; font-size: 1.2rem;">
+              <span style="margin: 0; padding:0; text-align:left; ">iammayorkun</span> 'Alarm' out midnight! This one's special  
+🥰
+            </p>
+            <p class="no-comments" style="text-align: left; font-size: 1.2rem;">View all 1,863 comments</p>
+            <p class="post-time" style="text-align: left; font-size: 1.2rem;"> 19 hours  ago</p>
+            </div>
+          </div>
+           <!-- <hr /> -->
+          <div class="comment-wrapper">
+            <img src="assets/images/nav-items/smile.PNG" class="icons"/>
+            <input type="text" class="comment-box" placeholder="Add a comment..." style="font-size: 1.2rem;" />
+            <button class="comment-btn">Post</button>
+          </div>
+
+        </div>
+        </div>
+          
+
+  </section> 
+  <div class="suggestion-section">
+     <!-- Suggestion links -->
+        <div class="suggestion-">
+          <div class="right-col">
+        <div class="profile-card">
+          <div class="status-pic">
+            <img src="./images/184954215_5445051182231582_8071326373936835373_n.jpg" />
+          </div>
+          <div>
+            <p class="pro-user">simply__dharmy</p>
+            <p class="sub-text">simply__dharmyp>
+          </div>
+          <div class="action-div">
+            <button class="action-btn">Switch</button>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div>
+            <p class="suggestion-text">Suggestions for you</p>
+          </div>
+          <div class="action-div">
+            <button class="seeall-btn">See All</button>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="status-pic">
+            <img src="assets/images/follow-img/follow-1.jpg" />
+          </div>
+          <div>
+            <p class="pro-user">stoicarmy</p>
+            <p class="sug-text">New to Instagram&nbsp;</p>
+          </div>
+          <div class="action-div">
+            <button class="action-btn">Follow</button>
+          </div>
+        </div>
+
+        <div class="profile-card">
+          <div class="status-pic">
+            <img src="assets/images/follow-img/follow-2.jpg" />
+          </div>
+          <div>
+            <p class="pro-user">visuallywise</p>
+            <p class="sug-text">New to Instagram&nbsp;</p>
+          </div>
+          <div class="action-div">
+            <button class="action-btn">Follow</button>
+          </div>
+        </div>
+
+        <div class="profile-card">
+          <div class="status-pic">
+            <img src="assets/images/follow-img/follow-3.jpg" />
+          </div>
+          <div>
+            <p class="pro-user">veritasium</p>
+            <p class="sug-text">Suggested for you</p>
+          </div>
+          <div class="action-div">
+            <button class="action-btn">Follow</button>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="status-pic">
+            <img src="assets/images/follow-img/follow-4.jpg" />
+          </div>
+          <div>
+            <p class="pro-user">wisesages</p>
+            <p class="sug-text">Suggested for you</p>
+          </div>
+          <div class="action-div">
+            <button class="action-btn">Follow</button>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="status-pic">
+            <img src="assets/images/follow-img/follow-5.jpg" />
+          </div>
+          <div>
+            <p class="pro-user">lifedsn</p>
+            <p class="sug-text">Suggested for you</p>
+          </div>
+          <div class="action-div">
+            <button class="action-btn">Follow</button>
+          </div>
+          
+        </div>
+        <div class="quick-links-wrapper" style="padding-top:15px;">
+          <div class="quick-link">About</div>
+          <div class="quick-link">Help</div>
+          <div class="quick-link">Press</div>
+          <div class="quick-link">API</div>
+          <div class="quick-link">Jobs</div>
+          <div class="quick-link">Privacy</div>
+          <div class="quick-link">Terms</div>
+        </div>
+        <div class="quick-links-wrapper">
+          <div class="quick-link">Locations</div>
+          <div class="quick-link">Language</div>
+        </div>
+        <div class="quick-links-wrapper" style="padding-top:10px;">
+          <div class="quick-link">@ 2022 INSTAGRAM FROM META</div>
+        </div>
+      </div>
+    </div>
+      </div>
+      </div>
+  </div>
+    
+    </div>  
+    <script>
+    let currentScroll = 0;
+    let scrollAmount = 320;
+
+    const sCont = document.querySelector(".stories")
+    const hScroll = document.querySelector(".status-wrapper")
+    const leftButton = document.querySelector("#scroll-left")
+    const rightButton = document.querySelector("#scroll-right")
+
+    let maxScroll = -sCont.offsetWidth + hScroll.offsetWidth;
+    leftButton.style.opacity = '0'
+
+    function scrollHorizontal(val) {
+      currentScroll += (val * scrollAmount);
+      if (currentScroll >= 0) {
+        currentScroll = 0
+        leftButton.style.opacity = '0'
+      } else {
+        leftButton.style.opacity = '1'
+      }
+      if (currentScroll <= maxScroll) {
+        currentScroll = maxScroll
+        rightButton.style.opacity = '0'
+      } else {
+        rightButton.style.opacity = '1'
+      }
+      sCont.style.left = currentScroll + "px"
+    }
+  </script>
+</body>
+</html>

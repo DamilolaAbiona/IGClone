@@ -1,4 +1,4 @@
-##Instagram clone WebApp
+#Instagram clone WebApp
 ###This Application is a clone of Instagram Homepage with little functionalities
 -This WebApp is developed with:
 1.HTML

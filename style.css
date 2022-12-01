@@ -755,7 +755,7 @@ i {
   display: none;
 }
 .story--scroll {
- display: none;
+ display: block;
 }
 }
 

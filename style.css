@@ -746,7 +746,7 @@ i {
   max-width: none;
   margin: 0rem 5rem 0rem 0rem;
   display: grid;
-  grid-template-columns: 130% 40%;
+  grid-template-columns: 180% 40%;
   grid-row-gap: 30px;
   text-align: center;
   /* margin-top: 35px; */

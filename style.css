@@ -755,7 +755,8 @@ i {
   display: none;
 }
 .story--scroll {
-  background-color: transparent;
+  display: none;
+  /* background-color: transparent;
   color: #999;
   padding: 5px 8px;
   border: 0;
@@ -766,7 +767,7 @@ i {
   z-index: 1;
   cursor: pointer;
   margin: 0px 5px;
-  transition: 0.7s;
+  transition: 0.7s; */
 }
 }
 
